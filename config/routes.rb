@@ -1,4 +1,16 @@
 HannybalApp::Application.routes.draw do
+  get "static_pages/home"
+
+  get "static_pages/inboundmarketing"
+
+  get "static_pages/salesalignment"
+
+  get "static_pages/methodology"
+
+  get "static_pages/team"
+
+  get "static_pages/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
